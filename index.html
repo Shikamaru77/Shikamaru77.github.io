@@ -1,229 +1,230 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Afraim - Portfolio</title>
-  <title>Syed Md. Afraim</title>
-  <meta name="description" content="Data Analyst/Machine Learning engineer">
-  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<body>
-  <!-- navbar header -->
-  <div class="nav-header">
-    <div class="nav-brand">
-      <img src="\pic\personal.jpg">
-      ">
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Afraim- Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
     </div>
-    <i class="fa fa-bars fa-3x"></i>
-    <div class="header-links">
-      <ul>
-        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- end navbar header -->
-
-  <!-- sidebar slider -->
-  <div class="nav-screen">
-    <i class="fa fa-times fa-3x"></i>
-    <div class="nav-container">
-      <div class="nav-links">
-        <ul id='myMenu'>
-          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-          <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-          <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#home">SMA.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Projects</a></li>
+          <li><a href="#exc">Extra Curricular</a></li>
+          <li><a href="#services">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
         </ul>
-      </div>
-    </div>
-  </div>
-  <!-- end navbar slider -->
-
-  <!-- begin fullpage -->
-
-  <div id="fullpage">
-
-    <!-- begin section -->
-
-    <div class="section aboutme" data-anchor="aboutme">
-      <div class="content-wrapper">
-        <div class="opaque-bg animated fadeInDown">
-          <div class="container">
-            <div class="description">
-                <h1>Your Name</h1>
-                <p>
-                    Your description goes here. Add any details about yourself, your skills, and your projects.
-                </p>
-            </div>          <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+        
+        <div class="media-icons">
+          <a href="https://www.facebook.com/Afraim.bs/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/syed-mohammad-afraim-096721234/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Shikamaru77"><i class="fab fa-github"></i></a>
         </div>
-        <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
       </div>
-      <div class="picture">
-        <img src="\pic\personal.jpg" alt="Your Picture">
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
       </div>
-    </div>
-    
-    <!-- end section -->
+    </nav>
 
-    <!-- begin section -->
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hi,</div>
+          <div class="text-two">I'm Syed Md. Afraim</div>
+          <div class="text-three">Data Scientist/ Machine learning engineer<div class="blinking-cursor">|</div></div>
+        </div>
+        <div class="button">
+          <a href="mailto:syedmohammadafraim@gmail.com" class="hire-button">Hire Me</a>
+        </div>
+      </div>
+    </section>
 
-    <div class="section" data-anchor="skills">
+    <!-- About Section Start -->
+    <section class="about" id="about">
       <div class="content">
-        <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
-        <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Afraim, a final year student in Computer Science and working on Data Analysis and Machine learning. I'm looking to collaborate on projects/challenges with outsiders on the same interest as me in Omdena or any other ways. Moreover, I'm learning about Computer vision and Neural networks as well. Fun fact is I never knew that I'd be this much of a geek.</p>
-
-        <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
-          <div class="skillbar clearfix " data-percent="90%">
-            <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
-            <div class="skillbar-bar" style="background: #DD1E2F;"></div>
-            <div class="skill-bar-percent">90%</div>
-          </div> <!-- End Skill Bar -->
-
-          <div class="skillbar clearfix " data-percent="80%">
-            <div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
-            <div class="skillbar-bar" style="background: #EBB035;"></div>
-            <div class="skill-bar-percent">80%</div>
-          </div> <!-- End Skill Bar -->
-
-          <div class="skillbar clearfix " data-percent="75%">
-            <div class="skillbar-title" style="background: #218559;"><span>Photoshop</span></div>
-            <div class="skillbar-bar" style="background: #218559;"></div>
-            <div class="skill-bar-percent">75%</div>
-          </div> <!-- End Skill Bar -->
-
-          <div class="skillbar clearfix " data-percent="45%">
-            <div class="skillbar-title" style="background: #6840D4;"><span>Rails</span></div>
-            <div class="skillbar-bar" style="background: #6840D4;"></div>
-            <div class="skill-bar-percent">45%</div>
-          </div> <!-- End Skill Bar -->
-
-          <div class="skillbar clearfix " data-percent="30%">
-            <div class="skillbar-title" style="background: #06A2CB;"><span>jQuery</span></div>
-            <div class="skillbar-bar" style="background: #06A2CB;"></div>
-            <div class="skill-bar-percent">30%</div>
-          </div> <!-- End Skill Bar -->
-
-          <div class="skillbar clearfix " data-percent="20%">
-            <div class="skillbar-title" style="background: #AB4DD2;"><span>PHP</span></div>
-            <div class="skillbar-bar" style="background: #AB4DD2;"></div>
-            <div class="skill-bar-percent">20%</div>
-          </div> <!-- End Skill Bar -->
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Crafting Captivating Narratives with Data Science</div>
+            <p>
+              Hey there! I'm a Data Science enthusiast. I possess a comprehensive skill set in data analysis and machine learning, with expertise in NumPy, Pandas, scikit-learn, Matplotlib, and SQL. Proficient in API data extraction with Beautiful Soup4, and experienced in end-to-end ML projects with cloud integration through CI/CD pipeline. Cloud expert in Heroku and AWS EC2, delivering valuable insights with engaging visualizations. Also, adept at creating beautiful and interactive dashboards with Power BI and Tableau.
+            </p>
+            <div class="button">
+              <a href="SM_Afraim_CV.pdf" download class="download-button">Download CV</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- end section -->
+    </section>
 
-    <!-- begin section -->
-
-    <div class="section" data-anchor="projects">
-      <div class="content-slide">
-        <div class="slide">
-          <h1 class="wow fadeInDown" data-wow-delay="0.2s">XFAIRE</h1>
-          <p class="wow fadeInDown" data-wow-delay="0.2s">Digital streaming service</p>
-          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/xfaire.jpg">
-        </div>
-        <div class="slide">
-          <h1>MACHETE ENERGY</h1>
-          <p>Energy drink website</p>
-          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/machete.jpg">
-        </div>
-        <div class="slide">
-          <h1>PORTFOLIO</h1>
-          <p>Mockup of a personal portfolio I was working on for a friend.</p>
-          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/cascioportfolio.jpg">
-        </div>
-        <div class="slide">
-          <h1>THATONEBLOG</h1>
-          <p>Minimalist blogging platform.</p>
-          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/blog.jpg">
-        </div>
-        <div class="slide">
-          <h1>PIXBORED</h1>
-          <p>Website for sharing images and gifs.</p>
-          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/pixbored.jpg">
-        </div>
-        <div class="slide">
-          <h1>PERSONAL WEBSITE</h1>
-          <p>Responsive vertical/horizontal header website theme.</p>
-          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/personalsite.jpg">
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+            <div class="experience">
+              <div class="num">10</div>
+              <div class="exp">
+                Years Of <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">PHP</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- end section -->
+    </section>
 
-    <!-- begin section -->
-
-    <div class="section" data-anchor="contact">
-      <div class="content wow fadeInDown" data-wow-delay="0.2s">
-        <h1>CONTACT ME</h1>
-        <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
-        <br>
-        <div class="contact-form">
-
-          <div id="form-messages"></div>
-          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
-            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
-              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
             </div>
-
-            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
-              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
+            <div class="topic">Web Devlopment</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
             </div>
-
-            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
-              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
+            <div class="topic">Graphic Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
             </div>
-
-            <div class="hidden">
-              <input type="text" class="form-control" id="human" name="human" placeholder="">
+            <div class="topic">Digital Marketing</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
             </div>
-            <div class="wow fadeInUp" data-wow-delay="1s">
-              <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+            <div class="topic">Icon Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
             </div>
-          </form>
-          <br>
+            <div class="topic">Photography</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Apps Devlopment</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- end section -->
-
-    <!-- begin section -->
-
-    <div class="section fp-auto-height">
-      <div class="footer">
-        <p>CONNECT WITH ME</p>
-        <div class="social-links">
-          <span><a href="https://www.linkedin.com/in/bradleyengelhardt" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
-          <span><a target="_blank" href="https://twitter.com/bradengelhardt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
-          <span><a href="https://github.com/SquishyAndroid" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
-          <span><a href="https://codepen.io/SquishyAndroid/pens/public/"><i class="fa fa-codepen fa-2x"></i></a></span>
+    </section>
+ <!-- My exc Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="exc">
+      <div class="content">
+        <div class="title"><span>Extra-curricular activites</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+            <div class="experience">
+              <div class="num">10</div>
+              <div class="exp">
+                Years Of <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">PHP</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- end section -->
+    </section>
 
-  </div>
-  <!-- end fullpage -->
-</body>
-<!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script><script  src="./script.js"></script>
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Afraim</a> | &#169; 2023 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
