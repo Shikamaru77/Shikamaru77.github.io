@@ -1,4 +1,5 @@
 /* Google Font CDN Link */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
   margin: 0;
@@ -7,6 +8,9 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+
+
+
 
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
@@ -48,9 +52,18 @@ nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
   color: #9E9B9C;
+  background: linear-gradient(45deg, #0b280d, #1be314);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.8s ease;
+}
+.navbar .logo a:hover{
+  color: #87061b;
+  background: none; 
 }
 nav.sticky .navbar .logo a{
-  color: #fff;
+  color: #f2f2f2;
 }
 nav .navbar .menu{
   display: flex;
@@ -58,13 +71,13 @@ nav .navbar .menu{
 }
 nav .navbar .menu li{
   list-style: none;
-  margin: 0 8px;
+  margin: 0 10px;
 }
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
   color: #f5f5f5;
-  padding: 6px 0;
+  padding: 8px 0;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
@@ -77,12 +90,19 @@ nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: #fefefe;
-  font-size: 18px;
+  font-size: 27px;
   margin: 0 6px;
+  font-weight: 500;
+  color: #9E9B9C;
+  background: linear-gradient(45deg, #0b280d, #1be314);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.8s ease;
 }
-nav.sticky .media-icons a{
-  color: #FFF;
+nav.sticky .media-icons a:hover{
+  color: #150431;
+  background: none;
 }
 
 /* Side Navigation Menu Button CSS */
@@ -118,7 +138,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("Images/black.png") no-repeat;
+  background: url("Images/bg77.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -134,18 +154,19 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #14bd2b;
+  color:   #14bd2b
 }
 .home .text-two{
-  color: #e0e1eb;
+  color: #877F7F;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
-.home .text-three{
-  font-size: 40px;
+.home .text-three {
+  font-size: 23px;
+  font-weight: 450;
   margin: 5px 0;
-  color: #877F7F;
+  color: #ffffff;
 }
 .home .text-four{
   font-size: 23px;
@@ -187,9 +208,10 @@ nav.sticky .menu-btn{
 }
 
 .hire-button:hover {
-  background-color: #63ff6d;
+  background-color: #0e6013;
   transform: scale(1.1);
 }
+
 
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
@@ -297,66 +319,81 @@ section .button button:hover{
   color: #000101;}
 
  /* My Skills CSS */
- .skills{
-   background: #F0F8FF;
- }
- .skills .content{
-   padding: 40px 0;
- }
- .skills .skills-details{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .skills-details .text{
-   width: 50%;
- }
- .skills-details p{
-   color: #0E2431;
-   text-align: justify;
- }
-.skills .skills-details .experience{
+
+/* egulo ager*/
+.skills{
+  background: #F0F8FF;
+}
+.skills .content{
+  padding: 40px 0;
+}
+.skills .skills-details{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 10px;
+}
+.skills-details .text{
+  color:  #000000;
+  width: 100%;
+  line-height: 2.2;
+}
+
+.skills-details p{
+  color: #0e3116;
+  text-align: justify;
+}
+.skills .skills-details .experience{
+ display: flex;
+ align-items: center;
+ margin: 0 10px;
 }
 .skills-details .experience .num{
-  color: #0E2431;
-  font-size: 80px;
+ color: #0E2431;
+ font-size: 80px;
 }
 .skills-details .experience .exp{
-  color: #0E2431;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
+ color: #4b1d37;
+ margin-left: 20px;
+ font-size: 18px;
+ font-weight: 500;
+ margin: 0 6px;
 }
 .skills-details .boxes{
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+ width: 45%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
 }
 .skills-details .box{
-  width: calc(100% / 2 - 20px);
-  margin: 20px 0;
+ width: calc(100% / 2 - 20px);
+ margin: 20px 0;
 }
 .skills-details .boxes .topic{
-  font-size: 20px;
-  color: #4070f4;
+ font-size: 20px;
+ color: #4070f4;
 }
 .skills-details .boxes .per{
-  font-size: 60px;
-  color: #4070f4;
+ font-size: 30px;
+ color: #4d6012;
 }
 
 /* My Services CSS */
+services .topic {
+  /* Add other styles for the div here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
+
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .services .boxes .box{
+
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -367,7 +404,7 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #095f2e;
   color: #fff;
 }
 .services .boxes .box .icon{
@@ -409,9 +446,10 @@ section .button button:hover{
   margin: auto;
 }
 
+
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #3B3C4A;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -434,7 +472,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #3B3C4A;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
@@ -516,7 +554,7 @@ footer .text span a:hover{
   .home .text-three{
     font-size: 35px;
   }
-  .skills .skills-details{
+  .skills.skills-details{
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -547,7 +585,7 @@ footer .text span a:hover{
     font-size: 33px;
   }
   .skills-details .boxes .per{
-    font-size: 50px;
+    font-size: 0px;
     color: #4070f4;
   }
 }
