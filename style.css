@@ -392,6 +392,7 @@ services .topic {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .services .boxes .box{
 
   margin: 20px 0;
@@ -404,13 +405,30 @@ services .topic {
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #095f2e;
+  background: #0E2431;
+  color: #fff;
+}
+.services .boxes .box .media-icons{
+  height: 45px;
+  width: 100px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 23px;
+  margin: 0 auto 10px auto;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #0E2431;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -421,7 +439,7 @@ services .topic {
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #108a3f;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
