@@ -635,11 +635,12 @@ footer .text span a:hover{
     display: block;
   }
   .home .text-two{
-    font-size: 35px;
+    font-size: 48px;
+    
   }
   .home .text-three{
     font-size: 13px;
-    font-weight:200;
+    font-weight:250;
   }
   .skills .skills-details{
     align-items: center;
