@@ -481,6 +481,44 @@ services .topic {
 .services .boxes .box:hover p{
   color: #fff;
 }
+/* education*/
+/*achievements*/
+.edu{
+  background: #f4f4f4;
+}
+.edu .content{
+  padding: 40px 0;
+}
+.edu .edu-details{
+  
+  justify-content: space-between;
+  align-items: center;
+}
+.edu-details .text{
+  color:  #000000;
+  width: 100%;
+  line-height: 2.2;
+}
+
+.edu-details p {
+  color: #1F1D23;
+  
+  line-height: 1.5em;
+}
+
+.edu-details a {
+  text-decoration: underline; color :#0b280d;
+  line-height: 1.5em;
+  color: inherit; /* To remove the default blue color */
+}
+
+.edu-details a:hover {
+  color: #108a3f; /* Color when hovering over the link */
+}
+
+.edu-details a:visited {
+  color: inherit;
+}
 /*achievements*/
 .ach{
   background: #f4f4f4;
@@ -506,7 +544,7 @@ services .topic {
 }
 
 .ach-details a {
-  text-decoration: dotted;
+  text-decoration: underline; color :#0b280d;
   line-height: 1.5em;
   color: inherit; /* To remove the default blue color */
 }
