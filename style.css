@@ -635,10 +635,10 @@ footer .text span a:hover{
     display: block;
   }
   .home .text-two{
-    font-size: 75px;
+    font-size: 45px;
   }
   .home .text-three{
-    font-size: 18px;
+    font-size: 13px;
   }
   .skills .skills-details{
     align-items: center;
@@ -665,10 +665,10 @@ footer .text span a:hover{
 
 @media (max-width: 500px){
   .home .text-two{
-    font-size: 55px;
+    font-size: 45px;
   }
   .home .text-three{
-    font-size: 33px;
+    font-size: 13px;
   }
   .skills-details .boxes .per{
     font-size: 50px;
