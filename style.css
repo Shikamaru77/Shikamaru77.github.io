@@ -350,7 +350,7 @@ section .button button:hover{
 }
 
 .skills-details p {
-  color: #1F1D23;
+  color: #1f231d;
   text-align: justify;
   line-height: 1.5em;
 }
@@ -439,9 +439,20 @@ services .topic {
   background: #0E2431;
   color: #fff;
 }
+
+.services .boxes .box .topic a{
+  color: inherit;
+}
+
+.services .boxes .box .topic a:hover{
+  text-decoration: underline;
+}
+
+
 .services .boxes .box .media-icons{
   height: 45px;
   width: 100px;
+  
   text-align: center;
   line-height: 70px;
   font-size: 23px;
@@ -449,7 +460,7 @@ services .topic {
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
-  color: #0E2431;
+  color: #0e3112;
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover .topic,
@@ -481,6 +492,13 @@ services .topic {
 .services .boxes .box:hover p{
   color: #fff;
 }
+.services .boxes .box .media-icons a{
+  color: inherit;
+}
+.services .boxes .box .media-icons a:hover {
+  text-decoration: line-through;
+}
+
 /* education*/
 /*achievements*/
 .edu{
